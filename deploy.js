@@ -111,7 +111,7 @@ function sshConnect() {
       console.log('Installing PM2...');
       return installPM2();
     })
-    .then(function () {r
+    .then(function () {
       console.log('Removing `starter-node-angular` folder.');
       return removeProjectApp();
     })
